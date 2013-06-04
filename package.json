@@ -2,11 +2,14 @@
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "name": "clientconfig",
   "description": "Simple way to pass config items from server to client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "tags": ["browser", "clientmodules", "config"],
   "repository": {
     "type": "git",
     "url": "git://github.com/henrikjoreteg/clientconfig.git"
+  },
+  "dependencies": {
+    "cookie-getter": "0.0.2"
   },
   "devDependencies": {
     "precommit-hook": "0.3.4"
