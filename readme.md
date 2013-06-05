@@ -1,6 +1,6 @@
 # clientconfig
 
-Super simple mechanism for passing config items, such as API connection URLs, debug modes, etc from server to client.
+Super simple mechanism for passing config items, such as API connection URLs, debug modes, etc from the server to client.
 
 This is handy for apps built as single page apps where you're sending a pre-built js application to the client but still want to be able to pass it configuration information.
 
