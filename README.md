@@ -4,7 +4,9 @@ Super simple mechanism for passing config items, such as API connection URLs, de
 
 This is handy for apps built as single page apps where you're sending a pre-built js application to the client but still want to be able to pass it configuration information.
 
-This is a very simple client side module (compatible with [clientmodules](https://github.com/henrikjoreteg/clientmodules) and [browserify](https://github.com/substack/node-browserify)). For more info see clientmodules repo and for more info on the approaches, check out [humanjavascript.com](http://humanjavascript.com).
+This is a very simple client side module [browserify](https://github.com/substack/node-browserify). For more info on the approaches used here check out [humanjavascript.com](http://humanjavascript.com).
+
+If you want to use it as a standalone, or with AMD etc. You can use `clientconfig.bundle.js`. It has no dependencies.
 
 Since we're using cookies, here are some pertinant warnings as so aptly put by @lauriro [here](https://github.com/litejs/browser-cookie-lite#notes):
 
