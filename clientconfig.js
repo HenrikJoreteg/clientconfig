@@ -1,5 +1,5 @@
 var cookies = require('cookie-getter'),
-    config = cookies('config');
+    config = cookies('config') || {};
 
 // freeze it if browser supported
 if (Object.freeze) {

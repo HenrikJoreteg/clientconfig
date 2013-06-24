@@ -2,8 +2,11 @@
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "name": "clientconfig",
   "description": "Simple way to pass config items from server to client",
-  "version": "0.0.3",
-  "tags": ["browser", "config"],
+  "version": "0.0.4",
+  "tags": [
+    "browser",
+    "config"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/henrikjoreteg/clientconfig.git"
