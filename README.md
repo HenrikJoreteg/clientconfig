@@ -24,7 +24,7 @@ Clientconfig simply looks for a cookie named `config` parses it at JSON and imme
 
 ## How do I use it?
 
-On the serverside when serving up your reqeust set a cookie containing the values you'd like to pass to the client in JSON.  
+On the server-side when serving up your request set a cookie containing the values you'd like to pass to the client in JSON.  
 
 If you're using node.js, express and `getconfig` it'd work like this:
 
