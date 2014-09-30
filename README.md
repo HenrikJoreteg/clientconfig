@@ -20,7 +20,7 @@ In short, don't send sensitive info this way unless you're on https.
 
 ## How does it work?
 
-Clientconfig simply looks for a cookie named `config` parses it at JSON and immediately wipes it out to avoid burdening subsequent requests with that extra overhead.
+Clientconfig simply looks for a cookie named `config` parses it as JSON and immediately wipes it out to avoid burdening subsequent requests with that extra overhead.
 
 ## How do I use it?
 
