@@ -15,8 +15,15 @@
     "cookie-getter": "^1.0.0"
   },
   "devDependencies": {
-    "precommit-hook": "0.3.4",
-    "browserify": "2.18.1"
+    "browserify": "2.18.1",
+    "precommit-hook": "latest",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
   },
-  "main": "./clientconfig.js"
+  "main": "./clientconfig.js",
+  "scripts": {
+    "test": "node test/index.js | tap-spec",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  }
 }

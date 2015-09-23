@@ -21,6 +21,7 @@
         "exports",
         "console",
         "Buffer",
-        "module"
+        "module",
+	"GLOBAL"
     ]
 }
